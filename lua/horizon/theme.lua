@@ -580,6 +580,13 @@ local function get_plugin_highlights(data, custom)
       ['HopPreview'] = { fg = '#c7ba7d' },
       ['HopUnmatched'] = { fg = custom.gray },
     },
+    leap = {
+      ['LeapBackdrop'] = { fg = '#4b4c53', bg = 'none' },
+      ['LeapLabelPrimary'] = { fg = '#25B2BC', bg = 'none' },
+      ['LeapMatch'] = { fg = '#25B2BC', bg = 'none' },
+      ['LeapLabelSelected'] = { fg = '#d44eed', bg = 'none' },
+      ['LeapLabelSecondary'] = { fg = '#b42ecd', bg = 'none' },
+    },
     flash = {
       ['FlashLabel'] = { fg = '#4ae0ff', bold = true, italic = true },
       ['FlashCurrent'] = { fg = '#d44eed', underline = true },
